@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background-color: #F0F2F5;
+    width: 100%;
+    min-height: 530px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    min-height: 150px;
+}
+
+.recent-login {
+    float: left;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.text-area img {
+    width: 38%;
+    padding: 0;
+    margin-left: -23px;
+    margin-bottom: -27px;
+}
+
+.text-area h2 {
+    margin-bottom: -13px;
+}
+
+.box-area a {
+    text-decoration: none;
+    color: #4B4F56;
+}
+
+.box1 {
+    width: 30%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box1:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+    transition: .50s;
+}
+
+.box1 img {
+    inline-size: 100%;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+.box2 {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box2 img {
+    inline-size: 100%;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+.box2:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+    transition: .50s;
+}
+
+.box3 {
+    width: 30%;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box3:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+    transition: .50s;
+}
+
+.box3 img {
+    inline-size: 100%;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+.sign-up {
+    overflow: hidden;
+    width: 50%;
+}
+
+.login {
+    width: 80%;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.login-agea {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.input-area input {
+    display: block;
+    margin: auto;
+}
+
+.input-area {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.input-area input[type="text"] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid #DDDFE2;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.input-area input[type="text"]:focus {
+    box-shadow: 1px 1px 1px 1px rgb(140, 140, 236);
+}
+
+.input-area input[type="password"] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid #DDDFE2;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.input-area input[type="password"]:focus {
+    box-shadow: 1px 1px 1px 1px rgb(140, 140, 236);
+}
+
+.input-area input[type="submit"] {
+    background-color: #166FE5;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 75%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.non-input-area {
+    text-align: center;
+}
+
+.non-input-area hr {
+    border: 1px solid #DADDE1;
+    width: 94%;
+    margin-top: 25px;
+}
+
+.non-input-area .create a {
+    background-color: #36A420;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 75%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.non-input-area a {
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.non-input-area .create {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.create-page {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px
+}
+
+.p {
+    color: #aaa8a8;
+}
+
+.p a {
+    color: #aaa8a8;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.p a:nth-child(11) {
+    border: 1px solid #aaa8a8;
+    background-color: #EBEDF0;
+    padding: 1px 3px 1px 3px;
+    color: #929292;
+}
+
+.copy a {
+    color: #aaa8a8;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.copy {
+    color: #aaa8a8;
+}
